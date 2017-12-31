@@ -6,6 +6,10 @@ var paragraph = function (number) {
             "    No more bottles of beer on the wall, no more bottles of beer.\n" +
             "    Go to the store and buy some more, 99 bottles of beer on the wall."
     }
+    if(number===2)
+    {
+        return "    " +number+" bottles of beer on the wall, "+number+" bottles of beer.\n    Take one down and pass it around, 1 bottle of beer on the wall."
+    }
     return "    " +number+" bottles of beer on the wall, "+number+" bottles of beer.\n    Take one down and pass it around, "+(number-1)+" bottles of beer on the wall."
 
 }
